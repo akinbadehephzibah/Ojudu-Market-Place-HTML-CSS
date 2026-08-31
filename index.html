@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Mechanic</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="card">
+  <div class="header">
+    <div>
+      <h1>Request a Mechanic at <span>OJODU</span></h1>
+      <p>Fill in your details and we'll get a mechanic to you ASAP.</p>
+    </div>
+  </div>
+
+  <form id="mechanicForm">
+    <div class="field">
+      <label for="name">
+        Your Name
+      </label>
+      <input type="text" id="name" name="name" placeholder="e.g. Akinku Hephzibah" required>
+    </div>
+
+    <div class="field">
+      <label for="phone">
+        Phone Number (WhatsApp active)
+      </label>
+      <input type="tel" id="phone" name="phone" placeholder="08147392759" required>
+    </div>
+
+    <div class="field">
+      <label for="location">
+        Where exactly in Ojodu are you?
+      </label>
+      <input type="text" id="location" name="location" placeholder="e.g. Ojodu Market" required>
+    </div>
+
+    <div class="field">
+      <label for="problem">
+        What is the problem?
+      </label>
+      <textarea id="problem" name="problem" placeholder="e.g. Car won't start, battery is dead" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">
+      Request a Mechanic
+    </button>
+  </form>
+
+  <div class="footer-note">
+Your details are safe with us. We will never share your information.
+  </div>
+</div>
+
+</body>
+</html>
