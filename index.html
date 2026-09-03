@@ -2,58 +2,50 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Request a Mechanic</title>
+<title>How It Works</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="card">
-  <div class="header">
+  <section class="hero">
+    <h1>HOW IT WORKS</h1>
+    <p>Getting help when your car breaks down is simple with MECH FIND.<br>
+       Just follow these easy steps.</p>
+  </section>
+
+  <section class="steps">
+    <div class="step">
+      <div class="step-number">01</div>
+      <h3>Tell Us Your Problem</h3>
+      <p>Enter your location and describe the problem with your car.</p>
+    </div>
+    <div class="connector"></div>
+    <div class="step">
+      <div class="step-number">02</div>
+      <h3>We Find Mechanics</h3>
+      <p>We search for available and trusted mechanics near you.</p>
+    </div>
+    <div class="connector"></div>
+    <div class="step">
+      <div class="step-number">03</div>
+      <h3>Choose &amp; Contact</h3>
+      <p>Choose a mechanic that fits you and contact them easily.</p>
+    </div>
+    <div class="connector"></div>
+    <div class="step">
+      <div class="step-number">04</div>
+      <h3>Get Help Fast</h3>
+      <p>The mechanic comes to you or guides you to the solution.</p>
+    </div>
+  </section>
+
+  <div class="cta-banner">
     <div>
-      <h1>Request a Mechanic at <span>OJODU</span></h1>
-      <p>Fill in your details and we'll get a mechanic to you ASAP.</p>
+      <h4>Fast. Easy. Reliable.</h4>
+      <p>MECH FIND connects you with the right mechanic so you're never left stranded.</p>
     </div>
+    <button class="btn-outline">Request a Mechanic →</button>
   </div>
-
-  <form id="mechanicForm">
-    <div class="field">
-      <label for="name">
-        Your Name
-      </label>
-      <input type="text" id="name" name="name" placeholder="e.g. Akinku Hephzibah" required>
-    </div>
-
-    <div class="field">
-      <label for="phone">
-        Phone Number (WhatsApp active)
-      </label>
-      <input type="tel" id="phone" name="phone" placeholder="08147392759" required>
-    </div>
-
-    <div class="field">
-      <label for="location">
-        Where exactly in Ojodu are you?
-      </label>
-      <input type="text" id="location" name="location" placeholder="e.g. Ojodu Market" required>
-    </div>
-
-    <div class="field">
-      <label for="problem">
-        What is the problem?
-      </label>
-      <textarea id="problem" name="problem" placeholder="e.g. Car won't start, battery is dead" required></textarea>
-    </div>
-
-    <button type="submit" class="submit-btn">
-      Request a Mechanic
-    </button>
-  </form>
-
-  <div class="footer-note">
-Your details are safe with us. We will never share your information.
-  </div>
-</div>
 
 </body>
 </html>
